@@ -1,2 +1,16 @@
 
-/* Your CSS Code here. */
+/* CSS for the holder */
+.holder {
+  display: flex;                
+  flex-wrap: wrap;             
+  justify-content: space-around; 
+  gap: 10px;                  
+}
+
+
+.holder .item {
+  flex: 0 1 calc(25% - 10px); 
+  box-sizing: border-box; 
+	background-color:gold
+}
+ 
