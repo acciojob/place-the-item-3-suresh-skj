@@ -11,6 +11,6 @@
 .holder .item {
   flex: 0 1 calc(25% - 10px); 
   box-sizing: border-box; 
-	background-color:gold
+	
 }
  
